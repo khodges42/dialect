@@ -2339,7 +2339,7 @@ If we just want to pick sane defaults and start building:
 | Moderation        | Kick session, temporary trip/IP bans, rotate password if needed |
 | Logging           | Minimal event logs, no chat bodies/secrets                      |
 
-## 16. The Short Version for Autumn
+## 16. The Short Version
 
 We are building a private terminal BBS.
 
