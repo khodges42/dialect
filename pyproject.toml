@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dialect-bbs"
+version = "0.1.0"
+description = "A terminal-first modern BBS with WebSockets, ANSI themes, forums, files, and doors."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0-or-later" }
+authors = [
+  { name = "SIGIL//NODE contributors" }
+]
+dependencies = [
+  "aiosqlite>=0.20",
+  "fastapi>=0.115",
+  "prompt-toolkit>=3.0",
+  "pydantic>=2.8",
+  "rich>=13.7",
+  "typer>=0.12",
+  "uvicorn[standard]>=0.30",
+  "websockets>=12.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2",
+  "pytest-asyncio>=0.23",
+  "ruff>=0.5"
+]
+
+[project.scripts]
+dialect-client = "bbs.client.main:main"
+dialect-server = "bbs.server.app:main"
+
+[tool.setuptools.packages.find]
+include = ["bbs*"]
+
+[tool.setuptools.package-data]
+"bbs.themes.default" = ["*.ans"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
