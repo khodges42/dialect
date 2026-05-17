@@ -1,1 +1,1 @@
-"""Terminal client components for SIGIL//NODE."""
+"""Terminal client components for Dialect."""

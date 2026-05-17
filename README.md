@@ -1,8 +1,8 @@
-# SIGIL//NODE
+# Dialect
 
 A free, GPLv3, terminal-first BBS for artistic weirdos, hackers, and people who think the internet got worse when everything became five websites in a trenchcoat.
 
-SIGIL//NODE is a modern BBS system with old-school soul: live chat, forum threads, ANSI art, file libraries, and modular doors/games, built for small communities that want their own weird little digital place.
+Dialect is a modern BBS system with old-school soul: live chat, forum threads, ANSI art, file libraries, and modular doors/games, built for small communities that want their own weird little digital place.
 
 ## Goals
 
@@ -20,7 +20,7 @@ SIGIL//NODE is a modern BBS system with old-school soul: live chat, forum thread
 
 ## What It Is
 
-SIGIL//NODE is not trying to be Discord, Slack, Reddit, or a SaaS platform.
+Dialect is not trying to be Discord, Slack, Reddit, or a SaaS platform.
 
 It is a small, self-hosted community node where people can hang out from a terminal, post threads, share files, run weird little programs, and decorate the place like it is a scene hangout from 1996.
 
@@ -82,7 +82,7 @@ Tripcodes are for recognizable pseudonymous identity, not high-security authenti
 
 ## Privacy Direction
 
-SIGIL//NODE should store as little as possible by default.
+Dialect should store as little as possible by default.
 
 * Live chat is not permanently logged by default
 * Forum posts are intentionally persistent
@@ -93,7 +93,7 @@ SIGIL//NODE should store as little as possible by default.
 
 ## License
 
-SIGIL//NODE is free software licensed under the GNU General Public License v3.0 or later.
+Dialect is free software licensed under the GNU General Public License v3.0 or later.
 
 You are free to run it, study it, modify it, and share it under the terms of the GPLv3.
 

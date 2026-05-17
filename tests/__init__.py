@@ -1,1 +1,1 @@
-"""Test package for SIGIL//NODE."""
+"""Test package for Dialect."""

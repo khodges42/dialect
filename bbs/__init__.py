@@ -1,4 +1,4 @@
-"""SIGIL//NODE BBS package."""
+"""Dialect BBS package."""
 
 __all__ = ["__version__"]
 

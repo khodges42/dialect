@@ -1,1 +1,1 @@
-"""Server-side components for SIGIL//NODE."""
+"""Server-side components for Dialect."""

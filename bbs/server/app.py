@@ -4,7 +4,7 @@ from fastapi import FastAPI
 
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="SIGIL//NODE", version="0.1.0")
+    app = FastAPI(title="Dialect", version="0.1.0")
 
     @app.get("/health")
     async def health() -> dict[str, str]:
